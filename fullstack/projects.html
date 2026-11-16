@@ -60,7 +60,7 @@
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="section-title mb-5">
                     <h2>Projects</h2>
-                    <p>Web applications I designed and built, followed by my AI project (Master’s thesis).</p>
+                    <p>Web applications I designed and built, other projects, and my AI project (Master’s thesis).</p>
                 </div>
 
                 <h3 class="other-projects-heading" style="margin-top:0">Web applications</h3>
@@ -72,7 +72,7 @@
                             <img src="../assets/img/project-1.png" class="img-fluid rounded" alt="Project 1">
                             <div class="project-content mt-3">
                                 <h5>RecruitFlow</h5>
-                                <p>Recruitment management platform (final-year project at ST2i).<br><strong>Angular · Spring Boot · Python</strong></p>
+                                <p>Recruitment management web application, built end to end from requirements to delivery (final-year internship at ST2i).<br><strong>Angular · Spring Boot · Python</strong></p>
                             </div>
                         </div>
                     </div>
@@ -82,8 +82,8 @@
                         <div class="project-card" data-aos="fade-up" data-aos-delay="100">
                             <img src="../assets/img/project-2.png" class="img-fluid rounded" alt="Project 2">
                             <div class="project-content mt-3">
-                                <h5>Intelligent ERP Application</h5>
-                                <p>Online towing service with image recognition, automatic data extraction and AI-generated reports.<br><strong>React · Express.js · SQL · OpenCV · OpenAI API</strong></p>
+                                <h5>Intelligent ERP for a Repair Service</h5>
+                                <p>Freelance ERP with image recognition, a Python OCR module that reads national ID (CIN) numbers, and AI-generated reports.<br><strong>React · Express.js · SQL · Python · Google Vision · OpenAI API</strong></p>
                             </div>
                         </div>
                     </div>
@@ -100,6 +100,37 @@
 </div>
 
 
+                </div>
+
+                <h3 class="other-projects-heading">Other projects</h3>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="project-card" data-aos="fade-up">
+                            <div class="project-icon"><i class="bi bi-chat-dots"></i></div>
+                            <div class="project-content mt-3">
+                                <h5>Q&amp;A Chatbot with LangChain</h5>
+                                <p>Question-answering chatbot built with LangChain prompt templates and chains on top of an LLM API.<br><strong>Python · LangChain · OpenAI API</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="project-icon"><i class="bi bi-house-door"></i></div>
+                            <div class="project-content mt-3">
+                                <h5>Real Estate Market Analysis</h5>
+                                <p>Data cleaning, exploratory analysis and visualization of property prices to identify market trends.<br><strong>Python · pandas · Matplotlib</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="project-icon"><i class="bi bi-car-front"></i></div>
+                            <div class="project-content mt-3">
+                                <h5>Dangerous Driving Detection</h5>
+                                <p>Detection of risky driving behaviors from video data.<br><strong>Python · OpenCV · NumPy · scikit-learn</strong></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <h3 class="other-projects-heading">AI project: Master’s thesis</h3>
@@ -251,6 +282,16 @@
             .projects .project-card:hover {
                 transform: translateY(-5px);
                 box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            }
+
+            .projects .project-icon {
+                height: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 64px;
+                color: #34b7a7;
+                background: linear-gradient(135deg, #e8f7f5, #f4f1ee);
             }
 
             .projects .project-card img {
